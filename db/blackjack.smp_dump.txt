@@ -1,0 +1,14 @@
+
+State Machine - |blackjack|current_state
+Name current_state.tie current_state.win current_state.loss current_state.compare current_state.dealerAction current_state.playerAction current_state.dealerCard2 current_state.dealerCard1 current_state.playerCard2 current_state.playerCard1 current_state.start 
+current_state.start 0 0 0 0 0 0 0 0 0 0 0 
+current_state.playerCard1 0 0 0 0 0 0 0 0 0 1 1 
+current_state.playerCard2 0 0 0 0 0 0 0 0 1 0 1 
+current_state.dealerCard1 0 0 0 0 0 0 0 1 0 0 1 
+current_state.dealerCard2 0 0 0 0 0 0 1 0 0 0 1 
+current_state.playerAction 0 0 0 0 0 1 0 0 0 0 1 
+current_state.dealerAction 0 0 0 0 1 0 0 0 0 0 1 
+current_state.compare 0 0 0 1 0 0 0 0 0 0 1 
+current_state.loss 0 0 1 0 0 0 0 0 0 0 1 
+current_state.win 0 1 0 0 0 0 0 0 0 0 1 
+current_state.tie 1 0 0 0 0 0 0 0 0 0 1 
